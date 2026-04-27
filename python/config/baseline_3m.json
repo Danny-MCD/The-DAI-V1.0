@@ -1,0 +1,17 @@
+{
+    "project_name": "EURUSD_3M_Alpha",
+    "timeframe": "3min",
+    "symbols": ["EURUSD"],
+    "years": ["2022", "2023", "2024", "2025"],
+    "labeling": {
+        "tp_pips": 10,
+        "sl_pips": 5,
+        "lookahead": 12
+    },
+    "paths": {
+        "raw": "python/data/raw_1m/",
+        "enriched": "python/data/features_added/",
+        "labeled": "python/data/processed/",
+        "models": "python/models/"
+    }
+}

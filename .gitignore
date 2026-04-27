@@ -1,0 +1,7 @@
+﻿python/data/
+python/models/
+venv/
+__pycache__/
+.env
+*.pkl
+*.csv
